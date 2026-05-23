@@ -1,0 +1,79 @@
+aid: drexel-university
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/drexel-university/refs/heads/main/apis.yml
+common:
+  - type: Homepage
+    url: https://drexel.edu
+  - type: ITServices
+    url: https://drexel.edu/it/
+  - type: Portal
+    url: https://one.drexel.edu
+  - type: LinkedIn
+    url: https://www.linkedin.com/school/drexel-university/
+  - type: GitHub
+    url: https://github.com/drexel-university
+apis:
+  - aid: drexel-university:drexelone
+    name: DrexelOne Portal (Ellucian Banner)
+    tags:
+      - Higher Education
+      - Student Information System
+      - Identity
+    humanURL: https://drexel.edu/it/services/catalog/drexelone-portal/
+    baseURL: https://one.drexel.edu
+    properties:
+      - url: https://drexel.edu/it/services/catalog/drexelone-portal/
+        type: Documentation
+      - url: https://one.drexel.edu
+        type: Portal
+    description: >-
+      DrexelOne is the university's single-sign-on portal for students, faculty, and
+      staff, backed by Ellucian Banner. It surfaces BannerWeb data — personal
+      information, grades, schedules, financial aid, employment, and payroll —
+      through DrexelConnect authentication. No public developer API or integration
+      documentation is published; access is internal and request-based via the IT
+      Help Desk.
+  - aid: drexel-university:catalog
+    name: Drexel Course Catalog
+    tags:
+      - Higher Education
+      - Course Catalog
+    humanURL: https://catalog.drexel.edu
+    properties:
+      - url: https://catalog.drexel.edu
+        type: Documentation
+      - url: https://termmasterschedule.drexel.edu
+        type: WebApp
+    description: >-
+      The Drexel Course Catalog and Term Master Schedule (WebTMS) are published
+      as web interfaces only. The catalog is explicitly online-only with no
+      documented machine-readable feed; the Term Master Schedule provides a
+      browseable interface but no public REST or JSON endpoint.
+name: Drexel University
+tags:
+  - Higher Education
+  - University
+  - Research
+  - Philadelphia
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-03-01'
+modified: '2026-05-23'
+position: Consumer
+description: >-
+  Drexel University is a private research university in Philadelphia, Pennsylvania,
+  with roughly 24,000 students and a Carnegie R1 (very high research activity)
+  classification. Drexel is internationally known for its cooperative education
+  (co-op) program, which embeds full-time professional work experience into
+  undergraduate degrees. Core enterprise systems run on Ellucian Banner, surfaced
+  to students and staff through the DrexelOne portal. Drexel does not publish a
+  public developer API, OpenAPI specification, SDK, or open data portal; the
+  organization's GitHub org (drexel-university) currently lists no public
+  repositories, and library, catalog, and IT service pages do not expose
+  documented integration endpoints. This profile is maintained as a tier-3
+  no-public-API index entry.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+specificationVersion: '0.19'
