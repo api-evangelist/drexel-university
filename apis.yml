@@ -2,7 +2,7 @@ aid: drexel-university
 url: >-
   https://raw.githubusercontent.com/api-evangelist/drexel-university/refs/heads/main/apis.yml
 common:
-  - type: Homepage
+  - type: Website
     url: https://drexel.edu
   - type: ITServices
     url: https://drexel.edu/it/
