@@ -32,13 +32,6 @@ Drexel University is a private research university in Philadelphia, Pennsylvania
 
 ## APIs
 
-### DrexelOne Portal (Ellucian Banner)
-
-DrexelOne is the university's single-sign-on portal for students, faculty, and staff, backed by Ellucian Banner. It surfaces BannerWeb data — personal information, grades, schedules, financial aid, employment, and payroll — through DrexelConnect authentication. No public developer API or integration documentation is published; access is internal and request-based via the IT Help Desk.
-
-**Human URL:** [https://drexel.edu/it/services/catalog/drexelone-portal/](https://drexel.edu/it/services/catalog/drexelone-portal/)
-
-**Base URL:** [https://one.drexel.edu](https://one.drexel.edu)
 
 #### Tags
 
@@ -51,11 +44,6 @@ DrexelOne is the university's single-sign-on portal for students, faculty, and s
 - [Documentation](https://drexel.edu/it/services/catalog/drexelone-portal/)
 - [Portal](https://one.drexel.edu)
 
-### Drexel Course Catalog
-
-The Drexel Course Catalog and Term Master Schedule (WebTMS) are published as web interfaces only. The catalog is explicitly online-only with no documented machine-readable feed; the Term Master Schedule provides a browseable interface but no public REST or JSON endpoint.
-
-**Human URL:** [https://catalog.drexel.edu](https://catalog.drexel.edu)
 
 #### Tags
 
