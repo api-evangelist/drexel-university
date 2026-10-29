@@ -1,4 +1,4 @@
-# Drexel University (drexel-university)
+# Drexel University
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,71 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Drexel University is a private research university in Philadelphia, Pennsylvania, with roughly 24,000 students and a Carnegie R1 (very high research activity) classification. Drexel is internationally known for its cooperative education (co-op) program, which embeds full-time professional work experience into undergraduate degrees. Core enterprise systems run on Ellucian Banner, surfaced to students and staff through the DrexelOne portal. Drexel does not publish a public developer API, OpenAPI specification, SDK, or open data portal; the organization's GitHub org (`drexel-university`) currently lists no public repositories, and library, catalog, and IT service pages do not expose documented integration endpoints. This profile is maintained as a tier-3 no-public-API index entry.
+Drexel University is a private research university in Philadelphia, Pennsylvania, with roughly 24,000 students and a Carnegie R1 (very high research activity) classification. Drexel is internationally known for its cooperative education (co-op) program, which embeds full-time professional work experience into undergraduate degrees. Core enterprise systems run on Ellucian Banner, surfaced to students and staff through the DrexelOne portal. Drexel does not publish a public developer API, OpenAPI specification, SDK, or open data portal; the organization's GitHub org (drexel-university) currently lists no public repositories, and library, catalog, and IT service pages do not expose documented integration endpoints. This profile is maintained as a tier-3 no-public-API index entry.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/drexel-university/refs/heads/main/apis.yml)
+**Areas:** Higher Education · University · Research · Philadelphia
 
-## Scope
+## Drexel University on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Drexel University is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/drexel-university/](https://apis.io/providers/drexel-university/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-- Higher Education
-- University
-- Research
-- Philadelphia
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (1)
 
-- **Created:** 2025-03-01
-- **Modified:** 2026-05-23
+Authentication, trust centre, and vulnerability disclosure.
 
-## Common Properties
+- [Drexel University Domain Security](https://apis.io/security/drexel-university/drexel-university-domain-security/)
 
-- [Homepage](https://drexel.edu)
-- [ITServices](https://drexel.edu/it/)
-- [Portal](https://one.drexel.edu)
-- [LinkedIn](https://www.linkedin.com/school/drexel-university/)
-- [GitHub](https://github.com/drexel-university)
+## Where to find this API
 
-## APIs
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
+- [Website](https://drexel.edu)
 
-#### Tags
+## API Evangelist rating
 
-- Higher Education
-- Student Information System
-- Identity
+**Kin Score 4.6** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-#### Properties
+| Facet | Score |
+|---|---|
+| Discoverability | 39.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 0.0 |
 
-- [Documentation](https://drexel.edu/it/services/catalog/drexelone-portal/)
-- [Portal](https://one.drexel.edu)
+**Agent readiness 0.0** — human-only
 
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-#### Tags
+**Regulatory alignment 5.9** — Education & Research
 
-- Higher Education
-- Course Catalog
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/drexel-university/](https://apis.io/providers/drexel-university/).
 
-#### Properties
+## How this profile is made
 
-- [Documentation](https://catalog.drexel.edu)
-- [WebApp](https://termmasterschedule.drexel.edu)
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Notable Absences
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Drexel University: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- No public OpenAPI / Swagger specifications
-- No published SDKs, CLIs, or client libraries
-- No public GitHub repositories under the `drexel-university` org
-- No open data portal, RSS/Atom feed, or developer documentation
-- No public pricing surface (institutional, not commercial)
+## Open an issue
 
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/drexel-university/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
